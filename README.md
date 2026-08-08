@@ -325,7 +325,7 @@ q.add(new Question(
         "Option B",
         "Option C",
         "Option D"
-    },
+    };
     1
 ));
 ```
@@ -565,4 +565,4 @@ SoftIQ is a Java desktop application that can be expanded from a simple educatio
 
 ---
 
-> **SoftIQ — Learn. Test. Improve.**
+> **SoftIQ - Learn. Test. Improve.**
