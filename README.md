@@ -146,7 +146,7 @@ The results screen also provides a short performance remark based on the final g
 SoftIQ/
 │
 ├── src/
-│   └── softiq/
+│   └── softwareiq/
 │       ├── SoftIQ.java
 │       ├── MainFrame.java
 │       ├── WelcomePanel.java
@@ -229,20 +229,20 @@ javac -version
 
 ### Option 1: Command Line
 
-Open a terminal in the `SoftIQ` project directory.
+Open a terminal in the `SoftwareIQ` project directory.
 
 Compile the source files:
 
 ```bash
 cd src
-javac softiq/*.java -d ../out
+javac softwareiq/*.java -d ../out
 ```
 
 Run the application:
 
 ```bash
 cd ../out
-java softiq.SoftIQ
+java softwareiq.SoftwareIQ
 ```
 
 ---
@@ -250,11 +250,11 @@ java softiq.SoftIQ
 ### Option 2: Visual Studio Code
 
 1. Install the **Extension Pack for Java** from Microsoft.
-2. Open the `SoftIQ` folder in VS Code.
+2. Open the `SoftwareIQ` folder in VS Code.
 3. Open:
 
 ```text
-src/softiq/SoftIQ.java
+src/softwareiq/SoftIQ.java
 ```
 
 4. Click **Run** above the `main()` method.
@@ -268,7 +268,7 @@ F5
 The included `.vscode/launch.json` configuration is already configured to launch:
 
 ```text
-softiq.SoftIQ
+softwareiq.SoftwareIQ
 ```
 
 ---
@@ -277,13 +277,13 @@ softiq.SoftIQ
 
 1. Open IntelliJ IDEA.
 2. Select **Open**.
-3. Choose the `SoftIQ` project folder.
+3. Choose the `SoftwareIQ` project folder.
 4. Configure a JDK if IntelliJ asks you to.
 5. Mark `src` as a **Sources Root** if it is not detected automatically.
 6. Open:
 
 ```text
-src/softiq/SoftIQ.java
+src/softwareiq/SoftIQ.java
 ```
 
 7. Run the `main()` method.
@@ -312,7 +312,7 @@ src/softiq/SoftIQ.java
 Questions are managed centrally inside:
 
 ```text
-src/softiq/QuestionBank.java
+src/softwareiq/QuestionBank.java
 ```
 
 A question follows this structure:

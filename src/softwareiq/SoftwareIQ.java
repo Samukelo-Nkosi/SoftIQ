@@ -4,11 +4,11 @@
  */
 
 
-package softiq;
+package softwareiq;
 
 import javax.swing.*;
 
-public class SoftIQ {
+public class SoftwareIQ {
     public static void main(String[] args){
         try{
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
